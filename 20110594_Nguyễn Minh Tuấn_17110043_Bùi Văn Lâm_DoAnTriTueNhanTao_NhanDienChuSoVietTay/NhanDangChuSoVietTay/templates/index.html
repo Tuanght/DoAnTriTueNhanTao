@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href={{url_for('static',filename='css/style.css')}}>
+    <title>Nhận diện chữ số viết tay</title>
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="{{url_for('static',filename='image/logo-ute.png')}}">
+        <h1 class="tieude">HCMUTE</h1>
+        <h3 class="tieude1">ĐỒ ÁN MÔN HỌC CUỐI KỲ</h3>
+        <h3 class="tieude2">TRÍ TUỆ NHÂN TẠO</h3>
+        <h3 class="tieude3">Mã môn học: ARIN330585_22_1_03CLC</h3>
+        <h3 class="tieude4">GVHD: Ths Trần Tiến Đức</h3>
+        <h2>CHỦ ĐỀ: NHẬN DẠNG CÁC CHỮ SỐ VIẾT TAY</h2>
+
+        <form action="/" method="POST">
+            <img class="image" src="{{src_image}}">
+            <button type="submit" class="taoAnh">Tạo ảnh</button>
+        </form>
+
+        <form action="/" method="GET">
+            <button type="submit" class="nhanDang">Nhận dạng</button>
+            <textarea cols='30' rows='20' class="textarea">{{value_predict}}</textarea>
+        </form>
+        
+        <h3 class="tieude5">DANH SÁCH THÀNH VIÊN NHÓM</h3>
+        <table>
+            <tr>
+                <th>Họ tên</th>
+                <th>Mssv</th>=
+            </tr>
+            <tr>
+                <td>Nguyễn Minh Tuấn</td>
+                <td>20110594</td>
+            </tr>
+            <tr>
+                <td>Bùi Văn Lâm</td>
+                <td>17110043</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

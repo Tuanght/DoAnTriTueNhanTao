@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('static/image/background-image.jpg');
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+    background: url('static/image/background-image.jpg');
+}
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: -100px;
+    margin-left: -100px;
+    float: left;
+    color: black;
+}
+.image{
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    float: left;
+    background-color: white;
+    font-size: 20;
+}
+.textarea {
+    margin-left: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 400px;
+    height: 176px;
+    float: left;
+    background-color: black;
+    color: white;
+    font-size: 20;
+}
+.container button{
+    width: 80px;
+    height: 40px;
+    margin-top: 12px;
+    float: right;
+    margin-right: 40px;
+    background-color: black;
+    color: white;
+}
+button:hover {
+    background-color: #555555;
+}
+.logo {
+    float: left;
+    margin-left: -330px;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.tieude {
+    float: left;
+    margin-left: -305px;
+    margin-top: 280px;
+    color: rgb(1, 1, 174);
+}
+.tieude1 {
+    float: left;
+    margin-left: -360px;
+    margin-top: 330px;
+    font-weight: bold;
+    
+}
+
+.tieude2 {
+    float: left;
+    margin-left: -330px;
+    margin-top: 360px;
+    font-weight: bold;
+    
+}
+
+.tieude3 {
+    float: left;
+    margin-left: -400px;
+    margin-top: 390px;
+    font-weight: bold;
+}
+
+.tieude4 {
+    float: left;
+    margin-left: -350px;
+    margin-top: 420px;
+    font-weight: bold;
+}
+
+.tieude5 {
+    float: right;
+    margin-right: -360px;
+    margin-top: -250px;
+    font-weight: bold;
+}
+table {
+    float: right;
+    margin-right: -390px;
+    margin-top: -200px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
